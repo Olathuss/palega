@@ -1,0 +1,43 @@
+# Watcom / OpenWatcom build artifacts
+*.obj
+*.exe
+*.map
+*.lst
+*.err
+*.sym
+*.bak
+*.tmp
+
+# DOSBox / 86Box / emulator junk
+*.sav
+*.cfg
+*.ini
+*.log
+
+# Disk images (never commit these)
+*.img
+*.ima
+*.vhd
+*.vdi
+*.qcow2
+
+# Archives
+*.zip
+*.7z
+*.rar
+*.iso
+
+# Build output folders (if you ever add them)
+build/
+out/
+
+# Test binaries (keep source, ignore compiled)
+tests/*.exe
+tests/*.obj
+tests/*.map
+tests/*.lst
+
+# Ignore editor/OS noise
+Thumbs.db
+Desktop.ini
+.DS_Store
