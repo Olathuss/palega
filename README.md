@@ -115,8 +115,6 @@ This represents:
 - Border color = `00h`  
 - Total size = **17 bytes**
 
-This avoids DOS 8.3 filename issues such as `PALETTE~1` and keeps palette files organized.
-
 ### Using Custom Palettes
 
 You can test palega easily using **Commander Keen 1 Shareware**, which is freely available and legal to redistribute.
@@ -132,3 +130,4 @@ If you provide a filename **without a path**, palega searches:
 
 1. **Current working directory**  
 2. **`pal/` subdirectory** (relative to the working directory)
+3. Will automatically append .pal filename.
