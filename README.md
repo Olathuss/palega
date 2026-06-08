@@ -1,6 +1,6 @@
 # palega — EGA Palette Swapper TSR for DOS
 
-**palega** is a small DOS TSR that intercepts **EGA palette BIOS calls**  
+**palega** is a small DOS TSR (Terminate and Stay Resident) that intercepts **EGA palette BIOS calls**  
 (INT 10h, AH=10h, AL=02h) and replaces the game’s palette with a custom one.
 
 This allows you to recolor classic EGA games in real time — without modifying the game files — simply by loading a TSR before launching the game.
